@@ -6,7 +6,7 @@
 
 html,
 body {
-  background: #000 url('img/bg.jpeg') no-repeat center center/cover;
+  background: #000 url("img/bg.jpeg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +51,7 @@ header img {
   height: 100px;
 }
 
-input[type='text'] {
+input[type="text"] {
   display: block;
   padding: 10px;
   font-size: 20px;
@@ -119,6 +119,18 @@ input[type='text'] {
 .card li {
   list-style: none;
   padding-bottom: 10px;
+}
+
+.pagination a {
+  color: white;
+  padding: 8px 16px;
+  border: 2px solid #ddd;
+}
+
+.pagination li {
+  display: flex;
+  padding: 8px 16px;
+  float: left;
 }
 
 @media (max-width: 800px) {
